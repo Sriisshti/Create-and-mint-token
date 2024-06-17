@@ -1,4 +1,4 @@
-![image](https://github.com/Sriisshti/Create-and-mint-token/assets/138436340/038664f6-0396-42ea-bef5-8b5f7deb9a7d)# Hello World
+# Hello World
 
 SrishtiToken
 This Solidity program is an ERC-20 token contract named "SrishtiToken". It demonstrates the basic functionality of the ERC-20 token standard, including minting, transferring, and burning tokens. This program is designed for those who are new to Solidity and ERC-20 token development on the Ethereum blockchain.
