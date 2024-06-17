@@ -12,7 +12,7 @@ contract SrishtiToken is ERC20 {
     }
 
     modifier onlyAdmin() {
-        require(msg.sender == admin, "This does not belongs to Owner");
+        require(msg.sender == admin, "This does not belong to the Owner");
         _;
     }
 
@@ -24,5 +24,10 @@ contract SrishtiToken is ERC20 {
 
     function destroyTokens(uint256 amount) public {
         _burn(msg.sender, amount);
+    }
+
+    function transferTokens(address recipient, uint256 amount) public returns (bool) {
+        _transfer(msg.sender, recipient, amount);
+        return true;
     }
 }
